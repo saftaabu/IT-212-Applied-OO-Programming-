@@ -1,0 +1,12 @@
+vin,  year,  color,  owner
+R7682T,2011,red,Ted
+Z5211W,2015,silver,Elaine
+M1032F,2018,gold,susan
+S0987F,2017,black,Fred
+N3128B,2017,black,Fred
+N3129B,2020,white,Oscar
+U3813W,2013,blue,Stephanie
+C4921Y,2015,red,Morgan
+D5019H,2019,yellow,William
+R1235T,2017,silver,Alice
+W9632D,2019,green,Mary
