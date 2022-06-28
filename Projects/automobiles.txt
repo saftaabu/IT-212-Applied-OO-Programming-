@@ -1,0 +1,12 @@
+vin,  year,  color,  owner, make, model, num_cylinders
+R7682T,2011,red,Ted,Infinity,Q70,8
+Z5211W,2015,silver,Elaine,Mazda,Touring,4
+M1032F,2018,gold,susan,Honda,Civic,4
+S0987F,2017,black,Fred,Ford,Taurus,4
+N3128B,2017,black,Fred,Toyota,Camry,4
+N3129B,2020,white,Oscar,Audi,Sortback,6
+U3813W,2013,blue,Stephanie,Toyota,Camry,4
+C4921Y,2015,red,Morgan,Toyota,Corolla,4
+D5019H,2019,yellow,William,Volkswagen,Golf,4
+R1235T,2017,silver,Alice,Nisson,Altima,4
+W9632D,2019,green,Mary,Hundai,Equus,8

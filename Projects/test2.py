@@ -1,30 +1,32 @@
-# Syed Aftaabuddin
-# Project 3a
-# May 5, 2020
-#Unit Test
+#Syed Aftaabuddin
+#5/14/2020
+#Unit Test for Project 3b
 
-from vehicle import Vehicle
+
+#importing Automobile class from automobiles.py file
+from automobiles import Automobile
 import unittest
 
 class MyUnitTestClass(unittest.TestCase):
+
+ #creating a function called test_automobile to test       
+   def test_automobile(self):
+        a = Automobile('R7682T',2011,'Red','Ted','Infinity','Q70', 8)
+        self.assertEqual(str(a),
+                         "R7682T 2011 Red Ted Infinity Q70 8")
+        self.assertEqual(a.make, "Infinity")
+        self.assertEqual(a.model , "Q70")
+        self.assertEqual(a.num_cylinders , 8)
+        self.asserEqual(a.miles, 0)
+        a.add_accessories("Mat")
+        a.add_accessories("Seat Cover")
+        a.add_accessories("Tyres")
+        self.assertEqual(a.accessories, ["Mat", "Seat Cover", "Tyres"])
         
-    def test_vehicle(self):
-        p3 = Vehicle("M1032F", 2018, "gold", "susan")
-        self.assertEqual(str(p3), \
-'''Vin: M1032F
-Year: 2018
-color: gold
-Owner: susan
-Is Sales Tax Paid: No
-''')
-        self.assertEqual(p3.vin, "M1032F")
-        self.assertEqual(p3.year, 2018)
-        self.assertEqual(p3.color, "gold")
-        self.assertEqual(p3.owner, "susan")
-        self.assertEqual(p3.is_sales_tax_paid( ), "No")
-        p3.pay_sales_tax( )
-        self.assertEqual(p3.is_sales_tax_paid( ), "Yes")
-        
+     
         
 if __name__ == '__main__':
     unittest.main( )
+
+ 
+        
